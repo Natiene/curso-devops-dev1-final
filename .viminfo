@@ -36,18 +36,28 @@
 	service { 'ntp':
 
 # File marks:
-'0  11  23  /etc/puppetlabs/puppet/puppet.conf
-'1  7  34  /etc/puppetlabs/puppet/puppet.conf
-'2  1  41  /etc/hosts
-'3  2  51  ~/base.pp
-'4  11  23  ~/base.pp
-'5  10  18  ~/base.pp
-'6  4  15  ~/base.pp
-'7  8  16  ~/base.pp
-'8  9  47  ~/base.pp
-'9  12  0  ~/base.pp
+'0  5  2  /var/rundeck/projects/Infraagil/etc/resources.xml
+'1  8  38  /etc/rundeck/rundeck-config.properties
+'2  11  44  /etc/rundeck/framework.properties
+'3  3  389  ~/.ssh/authorized_keys
+'4  14  24  ~/.bashrc
+'5  11  23  /etc/puppetlabs/puppet/puppet.conf
+'6  7  34  /etc/puppetlabs/puppet/puppet.conf
+'7  1  41  /etc/hosts
+'8  2  51  ~/base.pp
+'9  11  23  ~/base.pp
 
 # Jumplist (newest first):
+-'  5  2  /var/rundeck/projects/Infraagil/etc/resources.xml
+-'  1  0  /var/rundeck/projects/Infraagil/etc/resources.xml
+-'  8  38  /etc/rundeck/rundeck-config.properties
+-'  1  0  /etc/rundeck/rundeck-config.properties
+-'  11  44  /etc/rundeck/framework.properties
+-'  1  0  /etc/rundeck/framework.properties
+-'  3  389  ~/.ssh/authorized_keys
+-'  1  0  ~/.ssh/authorized_keys
+-'  14  24  ~/.bashrc
+-'  1  0  ~/.bashrc
 -'  11  23  /etc/puppetlabs/puppet/puppet.conf
 -'  7  0  /etc/puppetlabs/puppet/puppet.conf
 -'  1  0  /etc/puppetlabs/puppet/puppet.conf
@@ -135,18 +145,40 @@
 -'  7  0  ~/ntp.pp
 -'  1  0  ~/ntp.pp
 -'  8  0  ~/ntp.pp
--'  4  14  ~/ntp.pp
--'  7  0  ~/ntp.pp
--'  1  0  ~/ntp.pp
--'  8  0  ~/ntp.pp
--'  4  14  ~/ntp.pp
--'  7  0  ~/ntp.pp
--'  1  0  ~/ntp.pp
--'  8  0  ~/ntp.pp
--'  4  14  ~/ntp.pp
--'  7  0  ~/ntp.pp
 
 # History of marks within files (newest to oldest):
+
+> /var/rundeck/projects/Infraagil/etc/resources.xml
+	"	5	2
+	^	5	192
+	.	5	191
+	+	5	193
+	+	5	87
+	+	5	191
+
+> /etc/rundeck/rundeck-config.properties
+	"	8	38
+	^	8	39
+	.	8	35
+	+	8	35
+
+> /etc/rundeck/framework.properties
+	"	11	44
+	^	11	45
+	.	11	41
+	+	11	41
+
+> ~/.ssh/authorized_keys
+	"	3	389
+	^	3	390
+	.	3	317
+	+	3	317
+
+> ~/.bashrc
+	"	14	24
+	^	14	25
+	.	14	24
+	+	14	24
 
 > /etc/puppetlabs/puppet/puppet.conf
 	"	11	23
